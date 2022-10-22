@@ -1,0 +1,66 @@
+
+* {
+    margin: 0 auto;/*This style rule is applied to every element and
+     aligns every element to center unless overwritten because of asterisk*/
+    padding: 0px;
+    box-sizing: border-box;
+} 
+body {
+    background-color: #2061CB;
+}
+.MainContainer {
+    /* position: relative; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+    color: #2061CB;
+}
+
+.input-field {
+    height: 46px;
+    width: 300px;   
+    font-size: 18px;  
+}
+.add-btn {
+    height: 44px;
+    width: 50px; 
+    padding: 30px;   
+}
+table {
+    width: 100%;
+}
+table, tr, td {
+    border: none;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+tr {
+    height: 60px;
+    background-color: #C4E1E5;
+    
+}
+td {
+    font-size: 25px;
+}
+input[type=button], button {
+    background-color: #2061CB;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+}
